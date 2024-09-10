@@ -1,5 +1,5 @@
 {% set name = "docker-buildx" %}
-{% set version = "0.16.2" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/docker/buildx/archive/v{{ version }}.tar.gz
-  sha256: f314635765f3dc5efe089244280cd24a577e83d339fec1970fed16977bf28382
+  sha256: f846f36dc93d78e9b1c94b716279a04f1d6f58ef5d445c6615ec8e5e3a7b5efa
 
 build:
   number: 0
