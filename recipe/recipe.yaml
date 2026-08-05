@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.36.0"
+  version: "0.36.1"
 
 package:
   name: docker-buildx
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/docker/buildx/archive/v${{ version }}.tar.gz
-  sha256: c3e7c577dc4b3e0656d69e2cb3651a9bb49776732cb55583652465d25a9675f4
+  sha256: 8959987919445ab61564f50decde4dae810137063d84e2d3c969c9a4a68ecdeb
 
 build:
   number: 0
